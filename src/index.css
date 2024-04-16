@@ -1,13 +1,121 @@
+
 body {
+  font-family: Arial, sans-serif;
+  background-color:  #c2c5aa;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+}
+/* Heading 2 styles */
+
+
+.made-by{
+  
+  text-align: center;
+}
+.dev-by-text {
+  border-bottom: 1px dotted red; 
+  margin: 8px auto; 
+  width: 20%; 
+}
+a{
+  text-decoration: none;
+  color: red;
+}
+/* Search bar styles */
+.search-bar {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input[type="text"] {
+  
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  appearance: auto;
+  user-select: none;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #cff0cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: brown;
+}
+
+/* Activity feed styles */
+.activity-feed {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+/* Activity card styles */
+.activity-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.activity-card h2 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.activity-card p {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Logo and name styles */
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  margin-right: 10px;
+}
+
+.website-name {
+  font-size: 24px;
+  color: #333; /* Adjust the color as needed */
+}
+

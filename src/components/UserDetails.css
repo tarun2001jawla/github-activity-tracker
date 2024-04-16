@@ -1,0 +1,25 @@
+/* UserDetails.css */
+
+.user-details-container {
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .user-details-container h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #3cff00;
+  }
+  
+  .user-details-container p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .user-details-container p:first-child {
+    margin-top: 0;
+  }
+  
