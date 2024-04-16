@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/github-activity-tracker/static/css/main.bac28543.css",
+    "main.js": "/github-activity-tracker/static/js/main.1cc4184c.js",
+    "static/media/Git_icon.svg.png": "/github-activity-tracker/static/media/Git_icon.svg.8322c082f223fd807d36.png",
+    "index.html": "/github-activity-tracker/index.html",
+    "main.bac28543.css.map": "/github-activity-tracker/static/css/main.bac28543.css.map",
+    "main.1cc4184c.js.map": "/github-activity-tracker/static/js/main.1cc4184c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bac28543.css",
+    "static/js/main.1cc4184c.js"
+  ]
+}
